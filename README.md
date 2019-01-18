@@ -1,7 +1,6 @@
-Demo code showing how to create and pin a `cgroup/skb` eBPF program that
-can be loaded and used from a second program.
-
-Note: the currently used gobpf version is https://github.com/iovisor/gobpf/pull/169
+Demo code showing how to create and pin a `cgroup/skb` eBPF program (here done
+with `load-firewall`) that can be loaded and used from a second program (here
+done with `attach-firewall`)
 
 ```
 make
