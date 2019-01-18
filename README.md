@@ -3,6 +3,7 @@ with `load-firewall`) that can be loaded and used from a second program (here
 done with `attach-firewall`)
 
 ```
+go get -u github.com/iovisor/gobpf/elf
 make
 ./load-firewall
 mkdir /sys/fs/cgroup/unified/cgroup-firewall-demo
