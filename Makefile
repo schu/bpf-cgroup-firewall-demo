@@ -22,5 +22,7 @@ build-elf:
 
 .PHONY: clean
 clean:
-	rm -vf cgroup-firewall.elf
-	rm -vf main
+	rm -vf \
+		cgroup-firewall.elf \
+		load-firewall \
+		attach-firewall
