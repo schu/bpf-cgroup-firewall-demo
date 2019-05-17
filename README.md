@@ -5,7 +5,7 @@ done with `attach-firewall`)
 ```
 go get -u github.com/iovisor/gobpf/elf
 make
-./load-firewall
+./load-firewall /sys/fs/bpf/cgroup-firewall-demo
 mkdir /sys/fs/cgroup/unified/cgroup-firewall-demo
 ./attach-firewall /sys/fs/bpf/cgroup-firewall-demo /sys/fs/cgroup/unified/cgroup-firewall-demo/
 ```
